@@ -18,3 +18,7 @@ exclude (
 	github.com/russross/blackfriday v2.0.0+incompatible
 	sigs.k8s.io/kustomize/api v0.2.0
 )
+
+replace (
+	github.com/Azure/go-autorest/autorest => github.com/Azure/go-autorest/autorest v0.9.5
+)
